@@ -23,7 +23,7 @@ CSharp
 You follow the steps bellow to connect your C# application to informix database:
 
   * Install a NuGet package: IBM.Data.DB2.Core
-  * Configure the connection string: "Server=localhost:9089;Database=<dbname>;UID=informix;PWD=<password>;Persist Security Info=True;Authentication=Server"
+  * Configure the connection string: "Server=localhost:9089;Database={dbname};UID=informix;PWD={password};Persist Security Info=True;Authentication=Server"
 
   
 Example:
