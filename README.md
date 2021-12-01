@@ -8,7 +8,7 @@ Docker
 
 Clone this repository and start the informix container:
 
-```
+```console
 $ docker-compose up
 ```
 
@@ -26,7 +26,7 @@ You follow the steps bellow to connect your C# application to informix database:
 
   
 Example:
-```
+```csharp
 using (DB2Connection connection = new DB2Connection(connectionString))
 {
   var comando = new DB2Command(@"SELECT * FROM Table", connection);
