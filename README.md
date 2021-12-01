@@ -13,6 +13,7 @@ $ docker-compose up
 ```
 
 Based on docker image:
+
 https://github.com/informix/informix-dockerhub-readme/blob/master/14.10.FC6/informix-developer-database.md
 
 
@@ -35,4 +36,8 @@ using (DB2Connection connection = new DB2Connection(connectionString))
 ```
 
 References:
+ 
 https://github.com/andresrsanchez/ARS.IfxConnection
+ 
+https://www.ibm.com/docs/en/informix-servers/14.10?topic=options-differences-between-net-providers
+ 
